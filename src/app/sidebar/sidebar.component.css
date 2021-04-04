@@ -1,0 +1,19 @@
+.sidebar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    position: absolute;
+    height: 100%;
+    background-color: rgb(210, 240, 222);
+    overflow: auto;
+    box-shadow: rgb(0 0 0 / 24%) 0px 2px 2px 0px, rgb(0 0 0 / 24%) 0px 0px 1px 0px;
+    border-radius: 2px;
+    border: 1px solid green;
+    z-index: 20;
+}
+@media screen and (max-width: 480px){
+.sidebar {
+    width: 50%;
+}
+}

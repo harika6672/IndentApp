@@ -1,0 +1,23 @@
+@media screen and (min-width: 48em) {
+    img {
+      max-width: 700px;
+    }
+  }
+  
+  img {
+    /* display: inline-block; */
+    max-height: 50px;
+    /* width: auto; */
+  }
+  .menu {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+  }
+  #menu {
+    background-color: transparent !important;
+    border-color: transparent !important ;
+    outline: none;
+  }
+  

@@ -1,0 +1,21 @@
+.row {
+    margin-top: 40px;
+  }
+  th,
+  td {
+    padding: 0.5rem;
+  }
+  #date {
+    margin-bottom: 10px;
+  }
+  input[type="text"]:focus {
+    border: none;
+    border-bottom: 2px solid green;
+    outline: none;
+  }
+  p {
+    color: red;
+    font-size: small;
+    margin-bottom: 2px;
+  }
+  

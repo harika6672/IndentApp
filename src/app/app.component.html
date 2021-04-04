@@ -1,0 +1,6 @@
+
+<app-navbar></app-navbar>
+
+<app-sidebar *ngIf="sidebar"></app-sidebar>
+<div id="comp" [ngClass]="{'total-screen': sidebar==true}" (click)="closenav()"><router-outlet></router-outlet></div>
+
