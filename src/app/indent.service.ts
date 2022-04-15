@@ -11,21 +11,23 @@ export class IndentService {
     { name: "STD", quantity: null, price: 55 },
     { name: "Family", quantity: null, price: 47.5 },
     { name: "COW", quantity: null, price: 49.5 },
-    { name: "Curd(150gms)", quantity: null, price: 38.25 },
-    { name: "Curd(200gms)", quantity: null, price: 62 },
-    { name: "Curd(500gms)", quantity: null, price: 61 },
+    { name: "Curd(150gms)", quantity: null, price: 49 },
+    { name: "Curd(200gms)", quantity: null, price: 65 },
+    { name: "Curd(500gms)", quantity: null, price: 69 },
   ];
   othersProducts=[
-    { name: "Vij", quantity: null, price: 46 },
-    { name: "He", quantity: null, price: 47 },
+    { name: "Vij", quantity: null, price: 50 },
+    { name: "VijSM", quantity: null, price: 54},
+    { name: "He", quantity: null, price: 51 },
     { name: "Small", quantity: null, price: 9 },
-    { name: "VWM", quantity: null, price: 60 },
-    { name: "JeWM", quantity: null, price: 65 },
-    { name: "ButterMilk", quantity: null, price:  22.5},
-    { name: "Lassi", quantity: null, price: 42.5 },
-    { name: "Curd(150gms)", quantity: null, price: 38.25 },
-    { name: "Curd(200gms)", quantity: null, price: 62 },
-    { name: "Curd(500gms)", quantity: null, price: 61 }
+    { name: "VWM", quantity: null, price: 66 },
+    { name: "JeWM", quantity: null, price: 69 },
+    { name: "HeWM", quantity: null, price: 35},
+    { name: "ButterMilk", quantity: null, price:  23},
+    { name: "Lassi", quantity: null, price: 43 },
+    { name: "Curd(150gms)", quantity: null, price: 49 },
+    { name: "Curd(200gms)", quantity: null, price: 65 },
+    { name: "Curd(500gms)", quantity: null, price: 69 }
   ]
   products= [];
   constructor() {}
