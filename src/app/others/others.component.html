@@ -13,7 +13,7 @@
           <tr *ngFor="let others of product;let i=index">
             <td>{{ others.name }}</td>
             <td>{{ others.price }}</td>
-            <td><input type="text" [(ngModel)]="others.quantity" name="qty" maxlength="10" size="10" (keyup)="onKeyup($event,i)" />
+            <td><input type="text" [(ngModel)]="others.quantity" name="qty" maxlength="10" size="10" />
             <p *ngIf="errorStatus">{{error[i]}}</p>
           </tr>
         </tbody>

@@ -11,7 +11,7 @@
         <tbody>
           <tr *ngFor="let heg of product;let i=index">
             <td>{{ heg.name }}</td>
-            <td><input type="text" [(ngModel)]="heg.quantity" name="qty" maxlength="10" size="10" (keyup)="onKeyup($event,i)" />
+            <td><input type="text" [(ngModel)]="heg.quantity" name="qty" maxlength="10" size="10" />
             <p *ngIf="errorStatus">{{error[i]}}</p>
           </tr>
         </tbody>

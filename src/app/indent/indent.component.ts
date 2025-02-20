@@ -44,21 +44,21 @@ export class IndentComponent implements OnInit {
 
   
 
-  onKeyup(e,i){
-    let isnum = /^\d+$/.test(e.target.value);
-console.log(isnum)
+//   onKeyup(e,i){
+//     let isnum = /^\d+$/.test(e.target.value);
+// console.log(isnum)
     
-    if(isnum){
-      this.errorStatus=false
-      console.log("yes")
-    }
-    else{
-      console.log("no");
-      this.errorStatus=true
-      this.error[i]="**only numbers are allowed"
-    }
-    if(e.target.value===""){
-      this.errorStatus=false
-    }
-  }
+//     if(isnum){
+//       this.errorStatus=false
+//       console.log("yes")
+//     }
+//     else{
+//       console.log("no");
+//       this.errorStatus=true
+//       this.error[i]="**only numbers are allowed"
+//     }
+//     if(e.target.value===""){
+//       this.errorStatus=false
+//     }
+//   }
 }
