@@ -16,18 +16,19 @@ export class IndentService {
     { name: "Curd(500gms)", quantity: null, price: 69 },
   ];
   othersProducts=[
-    { name: "Vij", quantity: null, price: 56 },
+    { name: "Vij", quantity: null, price: 58 },
     { name: "Amul", quantity: null, price: 51},
     { name: "He", quantity: null, price: 59 },
     { name: "Small", quantity: null, price: 9 },
-    { name: "VWM", quantity: null, price: 70 },
+    { name: "VWM", quantity: null, price: 72 },
     { name: "JeWM", quantity: null, price: 73 },
     { name: "HeWM", quantity: null, price: 38.5},
     { name: "ButterMilk", quantity: null, price:  25},
     { name: "Lassi", quantity: null, price: 43 },
     { name: "Curd(150gms)", quantity: null, price: 39 },
     { name: "Curd(200gms)", quantity: null, price: 69 },
-    { name: "Curd(500gms)", quantity: null, price: 78 }
+    { name: "Curd(500gms)", quantity: null, price: 78 },
+    { name: "Nandini curd", quantity: null, price: 63 }
   ]
   products= [];
   constructor() {}
