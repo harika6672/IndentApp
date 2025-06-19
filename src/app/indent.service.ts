@@ -23,7 +23,7 @@ export class IndentService {
     { name: "VWM", quantity: null, price: 72 },
     { name: "JeWM", quantity: null, price: 73 },
     { name: "HeWM", quantity: null, price: 38.5},
-    { name: "ButterMilk", quantity: null, price:  25},
+    { name: "ButterMilk", quantity: null, price: 35},
     { name: "Lassi", quantity: null, price: 43 },
     { name: "Curd(150gms)", quantity: null, price: 39 },
     { name: "Curd(200gms)", quantity: null, price: 69 },
