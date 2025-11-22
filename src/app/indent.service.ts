@@ -18,7 +18,7 @@ export class IndentService {
   othersProducts=[
     { name: "Vij", quantity: null, price: 58 },
     { name: "Amul", quantity: null, price: 51},
-    { name: "He", quantity: null, price: 59 },
+    { name: "He", quantity: null, price: 61 },
     { name: "Small", quantity: null, price: 9 },
     { name: "VWM", quantity: null, price: 72 },
     { name: "JeWM", quantity: null, price: 73 },
